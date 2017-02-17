@@ -13,6 +13,12 @@
 		72B2572F1E56B1E100B9EB5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B2572D1E56B1E100B9EB5B /* Main.storyboard */; };
 		72B257311E56B1E100B9EB5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B257301E56B1E100B9EB5B /* Assets.xcassets */; };
 		72B257341E56B1E100B9EB5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B257321E56B1E100B9EB5B /* LaunchScreen.storyboard */; };
+		72B257411E56B2C700B9EB5B /* Albers.png in Resources */ = {isa = PBXBuildFile; fileRef = 72B2573C1E56B2C700B9EB5B /* Albers.png */; };
+		72B257421E56B2C700B9EB5B /* emptyUser.png in Resources */ = {isa = PBXBuildFile; fileRef = 72B2573D1E56B2C700B9EB5B /* emptyUser.png */; };
+		72B257431E56B2C700B9EB5B /* Frida.png in Resources */ = {isa = PBXBuildFile; fileRef = 72B2573E1E56B2C700B9EB5B /* Frida.png */; };
+		72B257441E56B2C700B9EB5B /* nelson256.png in Resources */ = {isa = PBXBuildFile; fileRef = 72B2573F1E56B2C700B9EB5B /* nelson256.png */; };
+		72B257451E56B2C700B9EB5B /* Okeefe.png in Resources */ = {isa = PBXBuildFile; fileRef = 72B257401E56B2C700B9EB5B /* Okeefe.png */; };
+		72B257491E56B33E00B9EB5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B257481E56B33E00B9EB5B /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		72B257301E56B1E100B9EB5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72B257331E56B1E100B9EB5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72B257351E56B1E100B9EB5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72B2573C1E56B2C700B9EB5B /* Albers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Albers.png; path = Resources/Albers.png; sourceTree = "<group>"; };
+		72B2573D1E56B2C700B9EB5B /* emptyUser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = emptyUser.png; path = Resources/emptyUser.png; sourceTree = "<group>"; };
+		72B2573E1E56B2C700B9EB5B /* Frida.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Frida.png; path = Resources/Frida.png; sourceTree = "<group>"; };
+		72B2573F1E56B2C700B9EB5B /* nelson256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nelson256.png; path = Resources/nelson256.png; sourceTree = "<group>"; };
+		72B257401E56B2C700B9EB5B /* Okeefe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Okeefe.png; path = Resources/Okeefe.png; sourceTree = "<group>"; };
+		72B257481E56B33E00B9EB5B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72B257491E56B33E00B9EB5B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +55,10 @@
 		72B257181E56B1E100B9EB5B = {
 			isa = PBXGroup;
 			children = (
+				72B2573B1E56B27C00B9EB5B /* Resources */,
 				72B257231E56B1E100B9EB5B /* BadButton */,
 				72B257221E56B1E100B9EB5B /* Products */,
+				72B257471E56B33E00B9EB5B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +92,26 @@
 				72B257251E56B1E100B9EB5B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72B2573B1E56B27C00B9EB5B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				72B2573C1E56B2C700B9EB5B /* Albers.png */,
+				72B2573D1E56B2C700B9EB5B /* emptyUser.png */,
+				72B2573E1E56B2C700B9EB5B /* Frida.png */,
+				72B2573F1E56B2C700B9EB5B /* nelson256.png */,
+				72B257401E56B2C700B9EB5B /* Okeefe.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		72B257471E56B33E00B9EB5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72B257481E56B33E00B9EB5B /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +173,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72B257431E56B2C700B9EB5B /* Frida.png in Resources */,
+				72B257421E56B2C700B9EB5B /* emptyUser.png in Resources */,
 				72B257341E56B1E100B9EB5B /* LaunchScreen.storyboard in Resources */,
 				72B257311E56B1E100B9EB5B /* Assets.xcassets in Resources */,
+				72B257451E56B2C700B9EB5B /* Okeefe.png in Resources */,
+				72B257411E56B2C700B9EB5B /* Albers.png in Resources */,
 				72B2572F1E56B1E100B9EB5B /* Main.storyboard in Resources */,
+				72B257441E56B2C700B9EB5B /* nelson256.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
