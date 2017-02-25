@@ -19,6 +19,7 @@
 		72B257441E56B2C700B9EB5B /* nelson256.png in Resources */ = {isa = PBXBuildFile; fileRef = 72B2573F1E56B2C700B9EB5B /* nelson256.png */; };
 		72B257451E56B2C700B9EB5B /* Okeefe.png in Resources */ = {isa = PBXBuildFile; fileRef = 72B257401E56B2C700B9EB5B /* Okeefe.png */; };
 		72B257491E56B33E00B9EB5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B257481E56B33E00B9EB5B /* UIKit.framework */; };
+		80243DF51E5E9D2100C7CD15 /* colorbook_logo_borders_lines-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 80243DF41E5E9D2100C7CD15 /* colorbook_logo_borders_lines-01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		72B2573F1E56B2C700B9EB5B /* nelson256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nelson256.png; path = Resources/nelson256.png; sourceTree = "<group>"; };
 		72B257401E56B2C700B9EB5B /* Okeefe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Okeefe.png; path = Resources/Okeefe.png; sourceTree = "<group>"; };
 		72B257481E56B33E00B9EB5B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		80243DF41E5E9D2100C7CD15 /* colorbook_logo_borders_lines-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "colorbook_logo_borders_lines-01.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				72B2573C1E56B2C700B9EB5B /* Albers.png */,
+				80243DF41E5E9D2100C7CD15 /* colorbook_logo_borders_lines-01.png */,
 				72B2573D1E56B2C700B9EB5B /* emptyUser.png */,
 				72B2573E1E56B2C700B9EB5B /* Frida.png */,
 				72B2573F1E56B2C700B9EB5B /* nelson256.png */,
@@ -185,6 +188,7 @@
 				72B257341E56B1E100B9EB5B /* LaunchScreen.storyboard in Resources */,
 				72B257311E56B1E100B9EB5B /* Assets.xcassets in Resources */,
 				72B257451E56B2C700B9EB5B /* Okeefe.png in Resources */,
+				80243DF51E5E9D2100C7CD15 /* colorbook_logo_borders_lines-01.png in Resources */,
 				72B257411E56B2C700B9EB5B /* Albers.png in Resources */,
 				72B2572F1E56B1E100B9EB5B /* Main.storyboard in Resources */,
 				72B257441E56B2C700B9EB5B /* nelson256.png in Resources */,
